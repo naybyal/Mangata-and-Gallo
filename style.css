@@ -33,15 +33,7 @@ hero h1 {
     align-items: center;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -65,13 +57,7 @@ ul {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-a {
-    color: black;
-    text-decoration: none;
-}
-a:active {
-    color: black;
-}
+
 header img {
     display: block;
     margin: 0 auto;
@@ -110,9 +96,16 @@ h1 h2{
 .items {
     display: grid;
     padding: 5rem 2rem;
-    gap: 3rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
 }
 .navbar-nav{
     justify-content: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: black;
 }
