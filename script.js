@@ -13,3 +13,13 @@ function handleFirstPlay(event) {
         // Start whatever you need to do after first playback has started
     }
 }
+let playAttempt = setInterval(() => {
+    videoElem
+        .play()
+        .then(() => {
+            clearInterval(playAttempt);
+        })
+        .catch((error) => {
+            console.log("Unable to play the video, User has not interacted yet.");
+        });
+}, 3000);
