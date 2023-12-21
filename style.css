@@ -57,7 +57,7 @@ ul {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 1px;
+    height: 1.5px;
     bottom: 0;
     left: 0;
     background-color: black;
@@ -88,12 +88,22 @@ header img {
     display: block;
     margin: auto;
 }
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p {
+    line-height: 1.4;
+}
 footer {
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 1rem 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+footer p {
+    text-align: right;
+}
 footer img {
-    width: 60px;
+    width: 56px;
 }
 
