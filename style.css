@@ -82,7 +82,6 @@ header img {
 .landing-vid {
     width: fit-content;
     display: block;
-    max-resolution: res;
     margin: auto;
 }
 footer {
