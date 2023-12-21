@@ -110,3 +110,9 @@ footer img {
 h1 h2{
     font-family: NeutralFaceBold;
 }
+.items {
+    display: grid;
+    padding: 5rem 2rem;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}
