@@ -84,9 +84,9 @@ header img {
     max-width: 700px
 }
 .landing-vid {
-    width: fit-content;
     display: block;
     margin: auto;
+    width: fit-content;
 }
 img {
     overflow-clip-margin: content-box;
@@ -104,6 +104,9 @@ footer p {
     text-align: right;
 }
 footer img {
-    width: 56px;
+    width: 64px;
 }
 
+h1 h2{
+    font-family: NeutralFaceBold;
+}
