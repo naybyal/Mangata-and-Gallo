@@ -22,24 +22,17 @@ hero video {
     z-index: -1;
     position: relative;
     padding: 2rem;
-    margin: 20px;
+}
+hero h1 {
+    padding-top: 20px;
 }
 .navbar {
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     display: block;
     align-items: center;
 }
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    padding-left: 0;
-}
-.navbar ul li {
-    list-style: none;
-    padding: 10px 12px;
-    text-transform: uppercase;
-}
+
 ul {
     display: block;
     list-style-type: disc;
@@ -119,4 +112,7 @@ h1 h2{
     padding: 5rem 2rem;
     gap: 3rem;
     grid-template-columns: repeat(3, 1fr);
+}
+.navbar-nav{
+    justify-content: center;
 }
