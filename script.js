@@ -1,11 +1,15 @@
-audioElement.play();
+const video = document.getElementById("video");
+video.addEventListener("play", handleFirstPlay, false);
 
-if (navigator.getAutoplayPolicy(video) === "allowed") {
-    // The video element will autoplay with audio.
-} else if (navigator.getAutoplayPolicy(video) === "allowed-muted") {
-    // Mute audio on video
-    video.muted = true;
-} else if (navigator.getAutoplayPolicy(video) === "disallowed") {
-    // Set a default placeholder image.
-    video.poster = "https://w0.peakpx.com/wallpaper/490/440/HD-wallpaper-emerald-ring-jewelry-gem-black-feathers-white-gold.jpg";
+let hasPlayed = false;
+function handleFirstPlay(event) {
+    if (!hasPlayed) {
+        hasPlayed = true;
+
+        // Remove listener so this only gets called once.
+        const vid = event.target;
+        vid.removeEventListener("play", handleFirstPlay);
+
+        // Start whatever you need to do after first playback has started
+    }
 }
