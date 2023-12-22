@@ -109,3 +109,6 @@ a {
 a:active {
     color: black;
 }
+a:hover {
+    color: dimgrey;
+}
