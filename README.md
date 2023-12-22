@@ -1,2 +1,6 @@
-# Mangata-and-Gallo
-Landing page for the luxury jewelry store, Mangata and Gallo.
+# Mangata & Gallo
+
+A simple landing page made using HTML/CSS and a little bit of Bootstrap5 for a luxury jewelry store. 
+
+
+
