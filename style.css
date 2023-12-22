@@ -117,7 +117,7 @@ a:hover {
     transition: transform .5s ease;
 }
 .card:hover {
-    transform: scale(1.025);
+    transform: scale(1.03);
 }
 
 
