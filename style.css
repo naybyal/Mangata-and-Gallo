@@ -112,3 +112,12 @@ a:active {
 a:hover {
     color: dimgrey;
 }
+
+.card{
+    transition: transform .5s ease;
+}
+.card:hover {
+    transform: scale(1.025);
+}
+
+
